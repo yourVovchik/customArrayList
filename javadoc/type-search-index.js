@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.example","l":"CustomArrayList"},{"p":"org.example","l":"CustomArrayListTest"},{"p":"org.example","l":"CustomArrays"},{"p":"org.example","l":"CustomArraysTest"},{"p":"org.example","l":"CustomList"},{"p":"org.example","l":"Main"}];updateSearchResults();
