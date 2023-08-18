@@ -37,6 +37,15 @@ public class CustomArrayList<E> implements CustomList<E>{
 
     /**
      * Function to add an element {@link E} to the end of the array
+     * @param size - size
+     */
+    public CustomArrayList(int size) {
+        this.values = (E[]) new Object[size];
+        size = values.length;
+    }
+
+    /**
+     * Function to add an element {@link E} to the end of the array
      * @param element - Value
      */
     @Override

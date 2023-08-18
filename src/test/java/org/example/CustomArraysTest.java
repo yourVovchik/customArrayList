@@ -15,7 +15,7 @@ public class CustomArraysTest {
         customArrayList.add(3);
         customArrayList.add(2);
         customArrayList.add(1);
-        CustomArrays.quickSort(customArrayList,0,customArrayList.size() - 1 );
+        CustomArraysUtils.quickSort(customArrayList,0,customArrayList.size() - 1 );
         assertAll(
                 () -> assertEquals(customArrayList.get(0), 1),
                 () -> assertEquals(customArrayList.get(1), 2),
@@ -30,7 +30,7 @@ public class CustomArraysTest {
         customArrayList.add(3);
         customArrayList.add(2);
         customArrayList.add(1);
-        CustomArrays.quickSort(customArrayList,0,customArrayList.size() - 1, Integer::compareTo);
+        CustomArraysUtils.quickSort(customArrayList,0,customArrayList.size() - 1, Integer::compareTo);
         assertAll(
                 () -> assertEquals(customArrayList.get(0), 1),
                 () -> assertEquals(customArrayList.get(1), 2),

@@ -7,13 +7,13 @@ import java.util.Comparator;
  * @autor Uladzimir Zhelakovich
  * @version 1.0
  */
-public class CustomArrays {
+public class CustomArraysUtils {
 
     /**
      * Constructor - private to close object initialization
-     * @see CustomArrays
+     * @see CustomArraysUtils
      */
-    private CustomArrays(){}
+    private CustomArraysUtils(){}
 
 
     /**
